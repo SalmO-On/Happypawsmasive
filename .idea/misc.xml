@@ -7,10 +7,15 @@
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_forgot_password.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_nav.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_signup.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_store.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding1.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding2.xml" value="0.1" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding3.xml" value="0.1" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/menu/bottom_navigation.xml" value="0.17447916666666666" />
       </map>
     </option>
   </component>

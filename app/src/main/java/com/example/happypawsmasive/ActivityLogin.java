@@ -75,7 +75,7 @@ public class ActivityLogin extends AppCompatActivity {
     }
 
     private void reload() {
-        startActivity (new Intent(getApplicationContext(), MainActivity.class));
+        startActivity (new Intent(getApplicationContext(), NavActivity.class));
     }
 
     @Override
