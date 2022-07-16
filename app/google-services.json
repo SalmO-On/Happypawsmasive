@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "265021545162",
+    "project_id": "happypawsmasive",
+    "storage_bucket": "happypawsmasive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265021545162:android:42078502807932515d3233",
+        "android_client_info": {
+          "package_name": "com.example.happypawsmasive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265021545162-22f6h9i63ed1slphqa6k9j6r6t78leht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.happypawsmasive",
+            "certificate_hash": "d5e27ef22c24397cea9703792049601998324fca"
+          }
+        },
+        {
+          "client_id": "265021545162-a6e8qukcjsjrrlgnrpu6v32k22eabo4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD037_9z9iay-xHgoNcUyT-xUEpEsqu6Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265021545162-a6e8qukcjsjrrlgnrpu6v32k22eabo4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

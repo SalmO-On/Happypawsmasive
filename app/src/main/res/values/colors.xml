@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="btn_orange">#FFBE88</color>
+    <color name="btn_pink">#EC94B3</color>
+    <color name="btn_purple">#AC6EBC</color>
+
+
+    <color name="backround_mockup2">#1A92619C</color>
+    <color name="backround">#FAF9FB</color>
+    <color name="ellipse_pink_20">#33E7B7C8</color>
+    <color name="ellipse_pink_74">#BDE7B7C8</color>
+
+    <color name="card_view_ellipse_purple_60">#99CDB3D4</color>
+
+
+    <color name="ellipse_purple">#CDB3D4</color>
+    <color name="ellipse_pink">#E7B7C8</color>
+    <color name="ellipse_orange">#FFBE88</color>
+
+    <color name="boarding_text">#5A5656 </color>
+    <color name="text">#838383</color>
+    <color name="icon">#83817F</color>
+</resources>
