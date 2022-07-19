@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/backround_shape_top.xml" value="0.1375" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/backround_shapes.xml" value="0.1375" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/bg_calender.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/bg_cari.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/check_box_selector.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/ic_rectangle4.xml" value="0.1375" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/item1.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/kotakhome.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/kotakshop.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/rectangle_profile.xml" value="0.1375" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/shape_pet.xml" value="0.16" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/font/montserrat_alternates.xml" value="0.1" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_forgot_password.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
@@ -10,11 +21,12 @@
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_nav.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/activity_signup.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_profile.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_store.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_store.xml" value="0.22" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding1.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding2.xml" value="0.1" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding3.xml" value="0.1" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/petcare1.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/menu/bottom_navigation.xml" value="0.17447916666666666" />
       </map>
     </option>

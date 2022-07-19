@@ -1,15 +1,816 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StoreFragment">
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ActivityLogin">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="190dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/store1" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="118dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/store2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="115dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/store3" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="store"
-        android:textSize="50dp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="637dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Store"
+        android:textColor="@color/text"
+        android:textSize="24dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="-7dp"
+        android:background="@drawable/backround_shapes"
+        android:orientation="vertical"
+        android:paddingHorizontal="1dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_product"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_cari"
+            app:iconifiedByDefault="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:queryBackground="@android:color/transparent"
+            app:queryHint="Search Item"
+            app:searchIcon="@drawable/ic_baseline_search_24"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_product">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:foregroundGravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view1"
+                    android:layout_width="150dp"
+                    android:layout_height="141dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_acccatchoiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambarcatchoiz"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/catchoiz"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/descatchoize"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/descatchoize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/hrg_catcoiz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_catchoiz"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view2"
+                    android:layout_width="150dp"
+                    android:layout_height="141dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_acccatchoiz1"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambarcatchoiz1"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/catchoiz1"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/descatchoize1"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/descatchoize1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_chatcois2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view3"
+                    android:layout_width="150dp"
+                    android:layout_height="142dp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_food3"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambar3"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/text31"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/destext3"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/destext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_3"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view4"
+                    android:layout_width="150dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_food4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambar4"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/title4"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/destext4"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/destext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_4"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view5"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_food5"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambar5"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/title5"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/destext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/destext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_5"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view6"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_food6"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambar6"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/title6"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/destext6"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/destext6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_6"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view7"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_row="4"
+                    android:layout_column="0"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_food7"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambar7"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/title7"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/destext7"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/destext7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_7"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view8"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/kotakshop"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_food8"
+                        android:layout_width="match_parent"
+                        android:layout_height="141dp"
+                        android:padding="1dp">
+
+                        <ImageView
+                            android:id="@+id/gambar8"
+                            android:layout_width="74dp"
+                            android:layout_height="97dp"
+                            android:src="@drawable/catchoiz"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/title8"
+                            android:layout_width="30dp"
+                            android:layout_height="150dp"
+                            android:layout_above="@+id/destext8"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:text="Cat Choize"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/destext8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginEnd="13dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Cat Food 1 Kg"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/harga8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="Rp 30.000"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/checkbox_8"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/ic_baseline_control_point_24"
+                            android:button="@android:color/transparent"
+                            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </RelativeLayout>

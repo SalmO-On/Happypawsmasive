@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="567dp"
+        android:src="@drawable/img_3" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="497dp"
+        android:text="PET CARE"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="518dp"
+        android:text="BOOKING"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="530dp"
+        android:src="@drawable/img" />
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="577dp"
+        android:src="@drawable/img_1" />
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="528dp"
+        android:src="@drawable/img_2" />
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="478dp"
+        android:gravity="center"
+        android:text="Select Pick Up Time"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="430dp"
+        android:gravity="center"
+        android:text="When you will Pick Up your pet form us?"
+        android:textSize="12sp" />
+
+    <CalendarView
+        android:layout_width="299dp"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="222dp"
+        android:background="@drawable/bg_calender"/>
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="163dp"
+        android:backgroundTint="@color/white"
+        android:text="10.00"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="162dp"
+        android:backgroundTint="@color/white"
+        android:text="11.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="163dp"
+        android:backgroundTint="@color/white"
+        android:text="12.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="569dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/white"
+        android:text="13.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="569dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/white"
+        android:text="14.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="125dp"
+        android:backgroundTint="@color/white"
+        android:text="15.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="@color/white"
+        android:text="16.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="@color/white"
+        android:text="17.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="86dp"
+        android:backgroundTint="@color/white"
+        android:text="10.00"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="86dp"
+        android:backgroundTint="@color/white"
+        android:text="19.00"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="657dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#AC6EBC"
+        android:text="Riveiw Booking"/>
+
+</RelativeLayout>
