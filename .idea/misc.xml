@@ -8,6 +8,7 @@
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/bg_calender.xml" value="0.16" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/bg_cari.xml" value="0.16" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/check_box_selector.xml" value="0.16" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/elipspink.xml" value="0.16" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/ic_rectangle4.xml" value="0.1375" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/item1.xml" value="0.16" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/drawable/kotakhome.xml" value="0.16" />
@@ -23,6 +24,8 @@
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fragment_store.xml" value="0.22" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fregment_store_accsesoris.xml" value="0.22" />
+        <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/fregment_store_medicine.xml" value="0.5" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding1.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding2.xml" value="0.1" />
         <entry key="..\:/Users/usert/AndroidStudioProjects/Happypawsmasive/app/src/main/res/layout/onboarding3.xml" value="0.1" />

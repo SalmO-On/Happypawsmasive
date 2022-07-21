@@ -5,24 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white">
+    android:background="@color/white"
+    tools:context=".ActivityLogin">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="270dp"
-        android:layout_marginBottom="682dp"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="Store"
-        android:textColor="@color/text"
-        android:textSize="24dp" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -102,8 +87,20 @@
         android:paddingLeft="10dp"
         android:src="@drawable/store3" />
 
-
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="670dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Store"
+        android:textColor="@color/text"
+        android:textSize="24dp" />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -147,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="Food"
-                android:textColor="@color/btn_purple" />
+                android:textColor="@color/text" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -155,7 +152,7 @@
                 android:layout_marginStart="15dp"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="Accsesoris"
-                android:textColor="@color/text" />
+                android:textColor="@color/btn_purple" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -469,7 +466,7 @@
                             android:id="@+id/gambar4"
                             android:layout_width="74dp"
                             android:layout_height="97dp"
-                            android:src="@drawable/image2"
+                            android:src="@drawable/catchoiz"
                             tools:ignore="ContentDescription" />
 
                         <TextView
@@ -478,12 +475,14 @@
                             android:layout_height="150dp"
                             android:layout_above="@+id/destext4"
                             android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_alignParentBottom="true"
                             android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
                             android:layout_marginEnd="10dp"
                             android:fontFamily="@font/montserrat_semibold"
-                            android:text="Pedigree Puppy"
+                            android:text="Cat Choize"
                             android:textColor="@color/black"
                             android:textSize="12sp"
                             tools:ignore="HardcodedText" />
@@ -556,7 +555,7 @@
                             android:id="@+id/gambar5"
                             android:layout_width="74dp"
                             android:layout_height="97dp"
-                            android:src="@drawable/image3"
+                            android:src="@drawable/catchoiz"
                             tools:ignore="ContentDescription" />
 
                         <TextView
@@ -572,7 +571,7 @@
                             android:layout_marginTop="15dp"
                             android:layout_marginEnd="10dp"
                             android:fontFamily="@font/montserrat_semibold"
-                            android:text="Pedigree Chicken and Vegetable"
+                            android:text="Cat Choize"
                             android:textColor="@color/black"
                             android:textSize="12sp"
                             tools:ignore="HardcodedText" />
@@ -643,7 +642,7 @@
                             android:id="@+id/gambar6"
                             android:layout_width="74dp"
                             android:layout_height="97dp"
-                            android:src="@drawable/image4"
+                            android:src="@drawable/catchoiz"
                             tools:ignore="ContentDescription" />
 
                         <TextView
@@ -732,7 +731,7 @@
                             android:id="@+id/gambar7"
                             android:layout_width="74dp"
                             android:layout_height="97dp"
-                            android:src="@drawable/whiskas5"
+                            android:src="@drawable/catchoiz"
                             tools:ignore="ContentDescription" />
 
                         <TextView
@@ -748,7 +747,7 @@
                             android:layout_marginTop="15dp"
                             android:layout_marginEnd="10dp"
                             android:fontFamily="@font/montserrat_semibold"
-                            android:text="Whiskas Adult 1+"
+                            android:text="Cat Choize"
                             android:textColor="@color/black"
                             android:textSize="12sp"
                             tools:ignore="HardcodedText" />
@@ -821,7 +820,7 @@
                             android:id="@+id/gambar8"
                             android:layout_width="74dp"
                             android:layout_height="97dp"
-                            android:src="@drawable/image6"
+                            android:src="@drawable/catchoiz"
                             tools:ignore="ContentDescription" />
 
                         <TextView
@@ -830,12 +829,14 @@
                             android:layout_height="150dp"
                             android:layout_above="@+id/destext8"
                             android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_alignParentBottom="true"
                             android:layout_marginStart="70dp"
+                            android:layout_marginTop="15dp"
                             android:layout_marginEnd="10dp"
                             android:fontFamily="@font/montserrat_semibold"
-                            android:text="Pedigree Chicken and Egg"
+                            android:text="Cat Choize"
                             android:textColor="@color/black"
                             android:textSize="12sp"
                             tools:ignore="HardcodedText" />
